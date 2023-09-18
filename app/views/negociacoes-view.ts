@@ -29,7 +29,7 @@ export class NegociacoesView extends view<Negociacoes> {
         </table>
             
         `;
-    }
+     }
     update(model: Negociacoes): void {
         const template = this.template(model);
         console.log(template);
